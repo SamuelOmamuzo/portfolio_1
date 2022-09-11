@@ -50,29 +50,29 @@ const Contact = () => {
               <AiOutlineMail />
               <Div>
                 <H1>Email Address</H1>
-                <span>clintonekegbu@gmail.com</span>
+                <span>samomamuzo324@gmail.com</span>
               </Div>
             </Hold>
             <Hold>
               <MdLocalPhone />
               <Div>
                 <H1>Phone Number</H1>
-                <span>+234 9077683652</span>
+                <span>+234 8121687129</span>
               </Div>
             </Hold>
           </Cont>
           <Icons>
-            <a href="https://web.facebook.com/clinton.ekegbu" target="_blank">
+            <a href="https://web.facebook.com/omamuzo.samuel.7" target="_blank">
               <FaFacebook />
             </a>
             <a href="https://github.com/SamuelOmamuzo" target="_blank">
               <FaGithub />
             </a>
-            <a href="https://Wa.me/+2349077683652" target="_blank">
+            <a href="https://Wa.me/+2348121687129" target="_blank">
               <FaWhatsappSquare />
             </a>
             <a
-              href="https://www.linkedin.com/in/clinton-ekegbu-aa268822a/"
+              href="https://www.linkedin.com/in/sam-omamuzo-4a48b3222/"
               target="_blank"
             >
               <AiFillLinkedin />
@@ -86,15 +86,19 @@ const Contact = () => {
           name="EmailForm"
         >
           <InputTop>
+          <span>Name</span>
             <Input1
               placeholder="Enter Name"
               type="text"
               name="name"
               size="19"
             />
+            <span>Number</span>
             <Input1 placeholder="Phone Number" name="phoneNumber" />
           </InputTop>
+          <span>Message Title</span>
           <Input3 placeholder="Message Title" name="title" type="text" />
+          <span>Message</span>
           <Message
             placeholder="Enter Message"
             name="message"
@@ -252,6 +256,10 @@ const Right = styled.form`
   height: 100%;
   width: 40%;
   margin-left: 60px;
+  span{
+    font-size:12px;
+    margin-bottom:3px;
+  }
   @media screen and (max-width: 1024px) {
     margin-left: unset;
     margin-left: 20px;
@@ -264,12 +272,18 @@ const Right = styled.form`
   }
 `;
 
-const InputTop = styled.div``;
+const InputTop = styled.div`
+  display:flex;
+  height:9rem;
+  flex-direction:column;
+  margin-bottom:5px;
+`;
 
 const Input1 = styled.input`
   outline: 1px solid rgba(54, 193, 87, 0.5);
   border: none;
   width: 40%;
+  margin-bottom:5px;
   height: 45px;
   border-radius: 50px;
   padding-left: 20px;

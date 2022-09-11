@@ -29,36 +29,44 @@ const Projects = () => {
           <CardImg>
             <img src="sos.png" alt="loading" />
           </CardImg>
-          <Disc> Lorems20</Disc>
-          <A href="distress-cl.herokuapp.com">click to visit</A>
+          <Disc> Skin Triumph is an ecommerce website for beauticians who cares about their skin. My role was just the User interface and User expirence</Disc>
+          <A href="https://skintriiumph-web.vercel.app">click to visit</A>
         </Card>
         <Card>
           <CardImg>
             <img src="callcare.png" alt="loading" />
           </CardImg>
-          <Disc> app that allow user to njdjvn</Disc>
-          <A href="https://callcare.versel.app">click to visit</A>
+          <Disc>Udemekitchen is a web application for users to order africa food online and my rople on this project was the UI/UX and backend</Disc>
+          <A href="https://udemekitchen.herokuapp.com/">click to visit</A>
         </Card>
         <Card>
           <CardImg1>
             <img src="pigin11.png" alt="loading" />
           </CardImg1>
-          <Disc> app that allow user to njdjvn</Disc>
-          <A href="">click to visit</A>
+          <Disc> I work on signup page on this project called 
+onechurchnetwork. My work spans from wireframing 
+and helping with research studies to creating visuals for 
+onboarding UI as well prototyping</Disc>
+          <A href="https://onechurchnetwork.herokuapp.com">click to visit</A>
         </Card>
         <Card>
           <CardImg>
             <img src="skool1.png" alt="loading" />
           </CardImg>
-          <Disc> app that allow user to njdjvn</Disc>
+          <Disc> I have worked as a UI/UX Instructor at  CodeLab with them 
+whe created so many project one of them is called 
+Sckoolkod. I contributed to the wireframing, Designing 
+using figma and implementing using React.js
+and helping with research studies to creating visuals for 
+onboarding UI as well prototyping</Disc>
           <A href="https://sckoolkod.vercel.app">click to visit</A>
         </Card>
         <Card>
           <CardImg>
-            <img src="ucare.png" alt="loading" />
+            <img src="sos.png" alt="loading" />
           </CardImg>
-          <Disc> app that allow user to njdjvn</Disc>
-          <A href="https://ucare.versel.app">click to visit</A>
+          <Disc> My service is a platform that connect artisans and professional to client that need their services. My work span from wireframing to Designing using figma</Disc>
+          <A href="https://myservices.netlify.app/">click to visit</A>
         </Card>
       </Wrapper>
     </Container>
@@ -144,7 +152,7 @@ const Wrapper = styled.div`
 
 const Card = styled.div`
   width: 320px;
-  height: 240px;
+  height: 299px;
   /* background: blue; */
   border: none;
   margin: 15px 10px;
@@ -198,7 +206,9 @@ const CardImg1 = styled.div`
 `;
 
 const Disc = styled.div`
-  font-size: 15px;
+  font-size: 10px;
+  width:90%;
+  text-align:center;
   margin: 10px 0;
 `;
 const A = styled.a`
