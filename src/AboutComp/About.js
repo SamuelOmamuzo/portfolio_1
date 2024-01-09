@@ -43,9 +43,7 @@ const About = () => {
           <Top>
             <Title>WHAT I DO</Title>
             <Text>
-              I work with you hand-in-hand to materialize your ideas with codes,
-              using programming tools, from creating the wireframe to deploying
-              the project
+               I work with you hand-in-hand to materialize your ideas with codes, using programming tools, from creating the wireframe to deploying the project.                   Additionally, I specialize in training individuals and empowering them with the knowledge and skills necessary to bring their visions to life.                      Through personalized training sessions, I guide you through the intricacies of coding, programming tools, and project deployment, ensuring you                      gain the expertise needed to independently navigate the development process. Whether you're a beginner or seeking to enhance your existing                         skills, I am committed to fostering your growth and enabling you to confidently turn your concepts into tangible, functional applications
             </Text>
             {/* <Button
               href="https://drive.google.com/file/d/1SmMqAIwsObdFZ0krNpO9mjAs6ajqRq4A/view?usp=drivesdk"
